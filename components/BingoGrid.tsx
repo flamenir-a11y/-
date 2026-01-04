@@ -70,7 +70,7 @@ const BingoGrid: React.FC<BingoGridProps> = ({ cells, onCellClick }) => {
             `}>
               {isFilled ? (
                 <>
-                  <span className="text-sm sm:text-base font-black border-b border-white/30 pb-0.5 sm:pb-1 line-clamp-2">
+<span className="text-[10px] sm:text-xs font-medium opacity-95 break-words leading-snug px-1 mt-0.5">
                     {cell.value}
                   </span>
                   <span className="text-[10px] sm:text-xs font-medium opacity-95 line-clamp-1 mt-0.5">
